@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="activity1Style">
+        <item name="android:textSize">15dp</item>
+<item name="color">#344</item>
+        <item name="textFillColor">#111</item>
+    </style>
+<style name="dietStyle">
+
+    <item name="android:textSize">30dp</item>
+    <item name="textFillColor">#111</item>
+</style>
+</resources>

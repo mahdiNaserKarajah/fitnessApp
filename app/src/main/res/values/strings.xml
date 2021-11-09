@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">fitness</string>
+    <string name="choose_the_day_of_training">Choose The Day Of Training :</string>
+    <string name="the_diet_plan_around_the_week">the diet plan around the week :</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="age">Age</string>
+    <string name="weight_in_kg">Weight in kg</string>
+    <string name="height_in_cm">Height in cm</string>
+    <string name="enter">Enter</string>
+    <string name="watch_your_info">Watch your Info</string>
+</resources>

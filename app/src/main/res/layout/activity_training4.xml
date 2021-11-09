@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unnamed__2_"
+    android:orientation="vertical"
+android:paddingTop="300dp"
+
+    tools:context=".TrainingActivity4">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="#F4DE1E"
+        android:text="@string/choose_the_day_of_training"
+
+        android:textSize="25sp" />
+
+    <Spinner
+        android:id="@+id/getDay"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+
+        android:background="#F4DE1E"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"></Spinner>
+
+    <TextView
+        android:id="@+id/Exercises"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="23dp"
+        android:background="#F4DE1E"
+        android:text=""
+
+        android:textSize="23dp" />
+
+</LinearLayout>

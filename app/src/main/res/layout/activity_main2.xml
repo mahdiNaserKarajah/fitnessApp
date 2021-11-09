@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_0200218_capture0006_edit"
+    tools:context=".MainActivity2">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="60dp">
+
+        <TableRow>
+
+            <TextView
+
+style="@style/activity1Style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#0C9BBF"
+                android:backgroundTintMode="src_atop"
+                android:text="@string/enter_your_name"
+
+                />
+
+            <EditText
+
+                android:id="@+id/Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="200dp"
+
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+
+                style="@style/activity1Style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="30dp"
+                android:width="120dp"
+                android:background="#0C9BBF"
+                android:text="@string/age" />
+
+            <EditText
+                android:id="@+id/Age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="200dp"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                style="@style/activity1Style"
+                android:layout_marginLeft="60dp"
+                android:width="120dp"
+                android:background="#0C9BBF"
+                android:text="@string/weight_in_kg"
+
+                />
+
+            <EditText
+                android:id="@+id/Weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="200dp"
+
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                style="@style/activity1Style"
+                android:layout_marginLeft="100dp"
+                android:width="120dp"
+                android:background="#0C9BBF"
+                android:text="@string/height_in_cm"
+
+                />
+
+            <EditText
+                android:id="@+id/Height"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="200dp"
+
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+        </TableRow>
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnEnter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:onClick="btnEnterData"
+                android:text="@string/enter"
+
+
+                style="@style/activity1Style"
+                />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

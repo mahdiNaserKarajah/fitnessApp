@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66F3DD"
+    android:gravity="center"
+    android:orientation="vertical"
+ android:padding="50dp"
+    tools:context=".MainActivity3">
+
+<TextView
+    android:layout_width="300dp"
+    android:layout_height="100dp"
+  android:id="@+id/BMI"
+    android:textSize="25dp"
+    android:layout_marginBottom="25dp"
+    />
+    <Button
+        android:id="@+id/btnDiet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:foreground="@drawable/the_fundamentals_of_a_balanced_diet"
+        android:text="Button"
+       android:onClick="btnDiet"
+
+        />
+
+    <Button
+        android:id="@+id/btnTraining"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:foreground="@drawable/a_fitness_trainers"
+        android:text="Button"
+        android:onClick="btnTraining"
+
+        />
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/watch_your_info"
+        android:id="@+id/btnInfo"
+        android:onClick="btnInfo"
+        android:layout_marginLeft="60dp"
+
+        />
+</LinearLayout>

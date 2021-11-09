@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#DCD81D">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F0F6F8"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/purple_700"
+            android:text="@string/the_diet_plan_around_the_week"
+
+            android:textSize="28dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/dietStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#DCD81D"
+
+            android:text="dfdasfasdfasdf" />
+
+        <ListView
+            android:id="@+id/DietList1"
+            style="@style/dietStyle"
+
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#FDF9F9FF">
+
+
+        </ListView>
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/dietStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="#DCD81D" />
+
+        <ListView
+            android:id="@+id/DietList2"
+            style="@style/dietStyle"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#F9FAF9"></ListView>
+
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/dietStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#DCD81D" />
+
+        <ListView
+            android:id="@+id/DietList3"
+            style="@style/dietStyle"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#F7F3F4F0">
+
+
+        </ListView>
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/dietStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="#DCD81D" />
+
+
+        <ListView
+            android:id="@+id/DietList4"
+            style="@style/dietStyle"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#F0F6F0">
+
+
+        </ListView>
+
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/dietStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="#7449C115" />
+
+        <ListView
+            android:id="@+id/DietList5"
+            style="@style/dietStyle"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#E8ECE7"
+
+            >
+
+
+        </ListView>
+
+        <TextView
+            android:id="@+id/textView6"
+            style="@style/dietStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="#09CA0C" />
+
+
+        <ListView
+            android:id="@+id/DietList6"
+            style="@style/dietStyle"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#E6F1E7">
+
+
+        </ListView>
+
+        <TextView
+            android:id="@+id/textView7"
+            style="@style/dietStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="#7449C115" />
+
+
+        <ListView
+            android:id="@+id/DietList7"
+            style="@style/dietStyle"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#F6FAF5">
+
+
+        </ListView>
+    </LinearLayout>
+
+</ScrollView>
